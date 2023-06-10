@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "type": "commonjs",
-  "main": "server.jsx",
+  "main": "server.js",
   "scripts": {
-    "start": "nodemon server.jsx",
+    "start": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

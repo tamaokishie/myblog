@@ -4,7 +4,7 @@ const mongoose = require("mongoose")
 const Thread = require("./models/Thread")
 require("dotenv").config()
 
-const port = 8000;
+const PORT = 8000;
 
 app.use(express.json())
 app.use(express.static("public"))
@@ -43,6 +43,4 @@ app.post("/api/thread", async(req, res) => {
 // 	res.send("テキストを更新しました")
 // })
 
-app.listen(port, () => {
-	console.log(`port ${port} でサーバー起動中です`);
-});
+app.listen(PORT, console.log("server is started"));
