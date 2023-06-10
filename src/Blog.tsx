@@ -15,6 +15,7 @@ import ShareIcon from '@mui/icons-material/Share';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import MoreVertIcon from '@mui/icons-material/MoreVert';
 import photo from './images/tamaoki_20th.png';
+import TextareaDecorators from './TextareaDecorators'
 interface ExpandMoreProps extends IconButtonProps {
 expand: boolean;
 }
@@ -61,9 +62,7 @@ return (
 	</CardMedia>
 	<CardContent>
 	<Typography variant="body2" color="text.secondary">
-	There was a coming-of-age ceremony. I am very happy 
-	to be able to wear the hakama that my mother wore back then. 
-	I really like the vivid aqua color!
+		{TextareaDecorators()}
 	</Typography>
 	</CardContent>
 	<CardActions disableSpacing>
@@ -85,6 +84,11 @@ return (
 	<Collapse in={expanded} timeout="auto" unmountOnExit>
 	<CardContent>
 		<Typography paragraph>Main Text:</Typography>
+		<Typography paragraph>
+		There was a coming-of-age ceremony. I am very happy 
+		to be able to wear the hakama that my mother wore back then. 
+		I really like the vivid aqua color!
+		</Typography>
 		<Typography paragraph>
 		I started building the app today. For the first 
 		time in a long time, it feels good to be absorbed 

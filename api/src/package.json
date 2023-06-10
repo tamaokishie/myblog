@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "type": "commonjs",
-  "main": "server.ts",
+  "main": "server.js",
   "scripts": {
-    "start": "nodemon server.ts",
+    "start": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -16,9 +16,13 @@
     "@types/node": "^20.2.5",
     "nodemon": "^2.0.22",
     "ts-node": "^10.9.1",
+    "tsx": "^3.12.7",
     "typescript": "^5.1.3"
   },
   "dependencies": {
-    "express": "^4.18.2"
+    "axios": "^1.4.0",
+    "dotenv": "^16.1.4",
+    "express": "^4.18.2",
+    "mongoose": "^7.2.3"
   }
 }

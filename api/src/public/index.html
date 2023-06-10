@@ -1,0 +1,30 @@
+	<!DOCTYPE html>
+	<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>My Blog | transmit daily life</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<!-- 掲示板のひな型作成 -->
+		<div class="board-section">
+		<h2>My Blog</h2>
+		<!-- この中に挿入していく -->
+		<div class="thread-section">
+		</div>
+		<form class="form-section">
+			<p>Title</p>
+			<input type="text" id="inputTitle" />
+			<p>Text</p>
+			<textarea id="inputContent" rows="10" cols="50" placeholder="Type something here..."style="font-size:15px"></textarea>
+			<br />
+			<button id="submitButton" type="submit" style="width:20%;font-size:15px">Send</button>
+		</form>
+		</div>
+
+		<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+		<script src="script.js"></script>
+	</body>
+	</html>
