@@ -1,6 +1,3 @@
-// axiosを一旦対処
-const axios = require('axios');
-
 // data fetching
 	const inputTextDOM = document.getElementById("inputTitle");
 	const inputContentDOM = document.getElementById("inputContent");

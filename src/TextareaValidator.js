@@ -102,7 +102,7 @@ export default function TextareaValidator() {
 				fontStyle: italic ? 'italic' : 'initial',
 			}}
 		/>
-		<div id="inputContent">
+		<div >
 		{incomplateTexts.map((text, index) => {
 			return(
 				<ul key = {text} className="list-row">
