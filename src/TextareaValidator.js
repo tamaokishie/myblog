@@ -34,6 +34,7 @@ export default function TextareaValidator() {
 		<FormControl>
 		<FormLabel>Your comment</FormLabel>
 		<Textarea
+			id="inputContent"
 			placeholder="Type something here…"
 			value={inputText}
 			onChange = {onChangeInputText}
@@ -101,7 +102,7 @@ export default function TextareaValidator() {
 				fontStyle: italic ? 'italic' : 'initial',
 			}}
 		/>
-		<div>
+		<div id="inputContent">
 		{incomplateTexts.map((text, index) => {
 			return(
 				<ul key = {text} className="list-row">

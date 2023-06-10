@@ -22,5 +22,5 @@
   },
   "include": [
     "client"
-, "src"  ]
+, "src", "src/App.js", "src/index.js", "src/Postcard.js", "src/Route.js"  ]
 }
